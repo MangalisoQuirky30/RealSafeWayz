@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="realSafewayz.Views.MainPage"
+             Title="{Binding Title}">
+
+    <StackLayout HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+        <Label Text="Welcome to Xamarin Forms and Prism!" />
+        <Button Text="Navigate to Map Page" Command="{Binding NavigateToMapPage}"></Button>
+        <Button Text="Navigate to Settings" Command="{Binding NavigateToSettingsPage}"></Button>
+        <Button Text="Navigate to LoginForm" Command="{Binding NavigateToLoginFormPage}"></Button>
+        <Button Text="Navigate to EditProfile" Command="{Binding NavigateToEditProfilePage}"></Button>
+        <Button Text="Navigate to Onboarding1" Command="{Binding NavigateToOnboarding1Page}"></Button>
+        <Button Text="Navigate to Onboarding2" Command="{Binding NavigateToOnboarding2Page}"></Button>
+        <Button Text="Navigate to Onboarding3" Command="{Binding NavigateToOnboarding3Page}"></Button>
+        <Button Text="Navigate to ViewProfile" Command="{Binding NavigateToViewProfilePage}"></Button>
+        <Button Text="Navigate to Registration" Command="{Binding NavigateToRegistrationPage}"></Button>
+        <Button Text="Navigate to CommunityFeed" Command="{Binding NavigateToCommunityFeedPage}"></Button>
+        <Button Text="Navigate to IncidentDetail" Command="{Binding NavigateToIncidentDetailPage}"></Button>
+        <Button Text="Navigate to IncidentReport" Command="{Binding NavigateToIncidentReportPage}"></Button>
+    </StackLayout>
+
+</ContentPage>
